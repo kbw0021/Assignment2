@@ -1,5 +1,5 @@
 /**
- * Creating two functions, an array that finds the minimum amount and an array that finds the maximum amount.
+ * Creating two functions, an array that finds the minimum int and an array that finds the maximum int.
  */
 public class Finder {
 

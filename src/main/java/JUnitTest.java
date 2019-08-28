@@ -21,9 +21,9 @@ public class JUnitTest {
     }
 
     // Tests an array with all duplicates of zeroes to find the minimum number.
-    @Test public void minZeroes() {
-        int[] a = {0, 0, 0, 0, 0};
-        Integer expected = 0;
+    @Test public void minEmpty() {
+        int[] a = {};
+        Integer expected = null;
         Assert.assertEquals(expected, Finder.findMin(a));
     }
 
@@ -46,9 +46,9 @@ public class JUnitTest {
     }
 
     // Tests an array with all negative numbers to find the maximum number.
-    @Test public void maxNegatives() {
-        int[] b = {-2, -3, -5, -9, -1};
-        Integer expected = -1;
+    @Test public void maxEmpty() {
+        int[] b = {};
+        Integer expected = null;
         Assert.assertEquals(expected, Finder.findMax(b));
     }
 
