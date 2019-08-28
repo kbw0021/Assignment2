@@ -3,9 +3,6 @@
  */
 public class Finder {
 
-    private Finder() {
-
-    }
 
     public static Integer findMin(int[] intArray) {
             if (intArray == null || intArray.length == 0) {
