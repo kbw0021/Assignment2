@@ -40,7 +40,7 @@ public class JUnitTest {
 
     //Tests an array that is equals to null to see if it returns back null.
     @Test public void maxNull() {
-        int[] b = {};
+        int[] b = null;
         Integer expected = null;
         Assert.assertEquals(expected, Finder.findMax(b));
     }
